@@ -1,0 +1,20 @@
+{
+    "name": "sadist/logger",
+    "description": "A simple yet powerful logging library in PHP which is PSR-3 Compliant.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sadist\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Purshottam Nepal",
+            "email": "prunepal333@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0"
+    }
+}
